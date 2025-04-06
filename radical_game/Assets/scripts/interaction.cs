@@ -27,6 +27,7 @@ public class interaction : MonoBehaviour
         {
             enteredTrigger.Invoke();
             insideTrigger = true; 
+            print("inside");
         }
     }
 
@@ -36,6 +37,7 @@ public class interaction : MonoBehaviour
         {
             exitedTrigger.Invoke();
             insideTrigger = false;
+            print("no trigger");
         }
     }
 
