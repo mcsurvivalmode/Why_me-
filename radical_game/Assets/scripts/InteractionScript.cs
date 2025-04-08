@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class interaction : MonoBehaviour
+public class InteractionScript : MonoBehaviour
 {
+
     public UnityEvent enteredTrigger, exitedTrigger, interacted;
 
     private bool insideTrigger;
@@ -16,30 +15,31 @@ public class interaction : MonoBehaviour
         if (insideTrigger && Input.GetKeyDown(KeyCode.E))
         {
             interacted?.Invoke();
-
         }
-
     }
 
-    private void OnTriggerenter2D(Collider2D other)
+
+    private void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag ("Player"))
         {
             enteredTrigger.Invoke();
-            insideTrigger = true; 
-            print("inside");
+            insideTrigger = true;
         }
+
     }
 
-    private void OnTriggerexit2D(Collider2D other)
+
+    private void OnTriggerExit2D (Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag ("Player"))
         {
             exitedTrigger.Invoke();
             insideTrigger = false;
-            print("no trigger");
         }
+
     }
+
 
 
 }

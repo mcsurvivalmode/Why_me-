@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float moveSpeed = 3f;
 
-    bool isFacingRight = false; //starts as false cause the player spwans in facing left |
+    bool isFacingRight = true; //starts as false cause the player spwans in facing left |
     Rigidbody2D rb;
     
     float jumpPower = 4f; //var for jump code!!
