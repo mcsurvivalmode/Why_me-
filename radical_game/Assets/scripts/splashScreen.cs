@@ -7,6 +7,6 @@ public class splashScreen : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("levelOne");
+        SceneManager.LoadScene("Level1");
     }
 }

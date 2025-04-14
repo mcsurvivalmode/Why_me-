@@ -9,8 +9,11 @@ public class PlayerMovement : MonoBehaviour
 
     bool isFacingRight = true; //starts as false cause the player spwans in facing left |
     Rigidbody2D rb;
+    Animator animator;
     
     float jumpPower = 4f; //var for jump code!!
+
+
     
    // [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -20,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
    void Start()
     {
        rb = GetComponent<Rigidbody2D>();
+       animator = GetComponent<Animator>();
 
            
       }
@@ -51,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
     //makes the player move by multiplying 
     {
         rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+        animator.SetFloat("xvelocity", Mathf.Abs(rb.velocity.x)); //makes sure the number is always positive even when the sprite flips
        
 
     }
