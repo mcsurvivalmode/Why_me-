@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class splashScreen : MonoBehaviour
+public class cutScene : MonoBehaviour
 {
-    public void PlayButton()
+    public void SkipButton()
     {
-        SceneManager.LoadScene("cutScene1");
+        SceneManager.LoadScene("Level1");
     }
 }

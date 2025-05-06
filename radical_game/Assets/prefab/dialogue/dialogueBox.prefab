@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &187423198865175697
+--- !u!1 &5728845105032387287
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3812204624746199005}
-  - component: {fileID: 5273646491347404290}
-  - component: {fileID: 8218517875122859061}
+  - component: {fileID: 7146269989218558575}
+  - component: {fileID: 1743703385877571406}
+  - component: {fileID: 3098412006304510247}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18,40 +18,40 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3812204624746199005
+--- !u!224 &7146269989218558575
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187423198865175697}
+  m_GameObject: {fileID: 5728845105032387287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.72072065, y: 1, z: 1}
+  m_LocalScale: {x: 0.6069227, y: 0.6172839, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7900858450574759693}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.6036034, y: 20.1}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0.1686, y: -2.965}
+  m_SizeDelta: {x: 367.4443, y: 97.6067}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5273646491347404290
+--- !u!222 &1743703385877571406
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187423198865175697}
+  m_GameObject: {fileID: 5728845105032387287}
   m_CullTransparentMesh: 1
---- !u!114 &8218517875122859061
+--- !u!114 &3098412006304510247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187423198865175697}
+  m_GameObject: {fileID: 5728845105032387287}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: daf14b1d1e737d347b453c763e701a4d, type: 2}
   m_sharedMaterial: {fileID: 7797956327811147015, guid: daf14b1d1e737d347b453c763e701a4d, type: 2}
@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4283914071
+  m_fontColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23
-  m_fontSizeBase: 23
+  m_fontSize: 25.43
+  m_fontSizeBase: 25.43
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -83.452576, y: 0, z: -77.76257, w: -33.50747}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -162,17 +162,17 @@ RectTransform:
   m_GameObject: {fileID: 6405484881052292567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3875, y: 1, z: 1}
+  m_LocalScale: {x: 1.6476563, y: 1.6200001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5317472002230723272}
-  - {fileID: 3812204624746199005}
+  - {fileID: 7146269989218558575}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 5, y: 101}
-  m_SizeDelta: {x: 305.8489, y: 150}
+  m_AnchoredPosition: {x: 5, y: 104}
+  m_SizeDelta: {x: 291.25, y: 132.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &677875052364744787
 CanvasRenderer:
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 47d2e0f0a8b3a9442be445d1e9e02259, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2cd025d2c4dc7c843b0c6892f5a06bf5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -224,10 +224,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b59b0100c8ceb649816133ffa9b7440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 8218517875122859061}
+  textComponent: {fileID: 3098412006304510247}
   lines:
-  - 'Tabitha: I am off to school! See you later!'
-  - 'Mom: Oh Tab wait a second! will you walk your brother home today.'
+  - 'Tabitha: Bye Mom I am going to meet Kate'
+  - 'Mom: Ok sweetie, have a good day! '
   textSpeed: 0.03
 --- !u!1 &7547896559035109957
 GameObject:
