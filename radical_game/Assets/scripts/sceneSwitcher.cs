@@ -1,16 +1,36 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class sceneSwitcher : MonoBehaviour
+public class sceneSwitcherScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void OnTriggerEnter2D(Collider2D other)
+
+    public int sceneBuildIndex;
+
+
+    //Switches scene to the selected scenes index number when trigger is entered by the player
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("Level2");
+        print("Trigger Entered");
+
+        if (other.tag == "Player")
+        {
+            print("Scene change to " + sceneBuildIndex);
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        }
+
     }
 
-    
+
+    //THIS IS FOR WHEN THE PLAYER ENTERS A TRIGGER, JUST FOR FUTURE USE
+
+    //print("Trigger Entered");
+
+        //if (other.tag == "Player")
+        //{
+            //print("Scene change to " + sceneBuildIndex);
+            //SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        //}
 }
+
