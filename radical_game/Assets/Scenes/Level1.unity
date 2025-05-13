@@ -3249,6 +3249,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1628310493}
     m_Modifications:
+    - target: {fileID: 1038830228148909400, guid: 1867b49eb9b298646b58c442d9367c85, type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038830228148909400, guid: 1867b49eb9b298646b58c442d9367c85, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: 'Mom: Ok sweetie, have a good day! '
+      objectReference: {fileID: 0}
     - target: {fileID: 6405484881052292567, guid: 1867b49eb9b298646b58c442d9367c85, type: 3}
       propertyPath: m_Name
       value: dialogueBox
