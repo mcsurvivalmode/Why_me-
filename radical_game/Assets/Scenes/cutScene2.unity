@@ -320,7 +320,7 @@ MonoBehaviour:
     It was kinda boring though, nothing really happened. After two hours the principle
     said we could all go home so that was fun! '
   textSpeed: 0.03
-  sceneBuildIndex: 0
+  sceneBuildIndex: 7
 --- !u!114 &21225766
 MonoBehaviour:
   m_ObjectHideFlags: 0
