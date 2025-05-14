@@ -7,6 +7,6 @@ public class letter_cutScene : MonoBehaviour
 {
     public void NextButton()
     {
-        SceneManager.LoadScene("cutScene1");
+        SceneManager.LoadScene("Level6");
     }
 }
