@@ -421,6 +421,10 @@ PrefabInstance:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 167721484}
+    - target: {fileID: 4714467544163695831, guid: 2ea21ac52661cbb4fa30dbb4df76eca6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5990748166575849763, guid: 2ea21ac52661cbb4fa30dbb4df76eca6, type: 3}
       propertyPath: m_Name
       value: kill
@@ -3285,10 +3289,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5a6e12f6fc02a7b41835b6292b7da369, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c5ef3a9b1560fac4e958b496af97a3cf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.506
-  m_Pitch: 1
+  m_Pitch: -0.8
   Loop: 1
   Mute: 0
   Spatialize: 0
